@@ -1,4 +1,5 @@
 import {useRouter} from 'next/router';
+import Head from 'next/Head';
 import NewMeetupForm from "../../components/meetups/NewMeetupForm"
 function NewMeetupPage(){
 
