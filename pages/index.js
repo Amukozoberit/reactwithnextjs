@@ -2,7 +2,7 @@ import {MongoClient} from 'mongodb';
 import MeetupList from '../components/meetups/MeetupList';
 import Layout from '../components/layout/Layout';
 import { useEffect,useState } from 'react';
-import Head from 'next/Head';
+import Head from 'next/head';
 
 
 const DUMMY_MEETUPS=[{
